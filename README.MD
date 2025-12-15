@@ -14,7 +14,7 @@ Mendix Studio Pro **does not have a built-in way** to batch-remove invalid prope
 *   You have to manually click every single widget and remove the property one by one.
 *   For a medium-sized app, this can take hours of mindless clicking.
 
-This tool solves that problem in **seconds**.
+This tool solves that problem in **minutes**.
 
 ---
 
