@@ -1,0 +1,26 @@
+{
+  "name": "scriptbkd",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "detect": "tsx clean-native-props.ts",
+    "start": "tsx clean-native-props.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mendixmodelsdk": "^4.105.0",
+    "mendixplatformsdk": "^5.2.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

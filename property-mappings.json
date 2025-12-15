@@ -1,0 +1,1083 @@
+{
+  "_metadata": {
+    "version": "2.2",
+    "description": "Element-type-aware property mappings from Native to Web design properties",
+    "created": "2025-12-15",
+    "targetElements": [
+      "DynamicText",
+      "DivContainer",
+      "StaticImageViewer",
+      "ListView",
+      "ActionButton",
+      "ReferenceSelector",
+      "DropDown",
+      "InputReferenceSetSelector",
+      "com.mendix.widget.native.badge.Badge",
+      "TextArea",
+      "ImageViewer",
+      "Text"
+    ],
+    "notes": [
+      "Only includes properties that need TRANSFORMATION or REMOVAL",
+      "Identity mappings removed - if property is identical in Native/Web, it's left unchanged",
+      "Use 'action': 'remove' for properties that have no web equivalent",
+      "Use 'action': 'map' for properties that need value/name transformation",
+      "Unmapped properties are left as-is (no action needed)"
+    ]
+  },
+  "mappings": [
+    {
+      "property": "Spacing top",
+      "value": "Smallest",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "S",
+      "mappedDirection": "top",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing top",
+      "value": "Smaller",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "S",
+      "mappedDirection": "top",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing top",
+      "value": "Small",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "S",
+      "mappedDirection": "top",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing top",
+      "value": "Medium",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "M",
+      "mappedDirection": "top",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing top",
+      "value": "Large",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "L",
+      "mappedDirection": "top",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing top",
+      "value": "Larger",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "L",
+      "mappedDirection": "top",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing top",
+      "value": "Largest",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "L",
+      "mappedDirection": "top",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing top",
+      "value": "Inner small",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "S",
+      "mappedDirection": "top",
+      "mappedType": "padding"
+    },
+    {
+      "property": "Spacing top",
+      "value": "Inner medium",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "M",
+      "mappedDirection": "top",
+      "mappedType": "padding"
+    },
+    {
+      "property": "Spacing top",
+      "value": "Inner large",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "L",
+      "mappedDirection": "top",
+      "mappedType": "padding"
+    },
+    {
+      "property": "Spacing top",
+      "value": "Outer small",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "S",
+      "mappedDirection": "top",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing top",
+      "value": "Outer medium",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "M",
+      "mappedDirection": "top",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing top",
+      "value": "Outer large",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "L",
+      "mappedDirection": "top",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing bottom",
+      "value": "Smallest",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "S",
+      "mappedDirection": "bottom",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing bottom",
+      "value": "Smaller",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "S",
+      "mappedDirection": "bottom",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing bottom",
+      "value": "Small",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "S",
+      "mappedDirection": "bottom",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing bottom",
+      "value": "Medium",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "M",
+      "mappedDirection": "bottom",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing bottom",
+      "value": "Large",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "L",
+      "mappedDirection": "bottom",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing bottom",
+      "value": "Larger",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "L",
+      "mappedDirection": "bottom",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing bottom",
+      "value": "Largest",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "L",
+      "mappedDirection": "bottom",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing bottom",
+      "value": "Inner small",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "S",
+      "mappedDirection": "bottom",
+      "mappedType": "padding"
+    },
+    {
+      "property": "Spacing bottom",
+      "value": "Inner medium",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "M",
+      "mappedDirection": "bottom",
+      "mappedType": "padding"
+    },
+    {
+      "property": "Spacing bottom",
+      "value": "Inner large",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "L",
+      "mappedDirection": "bottom",
+      "mappedType": "padding"
+    },
+    {
+      "property": "Spacing bottom",
+      "value": "Outer small",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "S",
+      "mappedDirection": "bottom",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing bottom",
+      "value": "Outer medium",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "M",
+      "mappedDirection": "bottom",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing bottom",
+      "value": "Outer large",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "L",
+      "mappedDirection": "bottom",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing left",
+      "value": "Smallest",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "S",
+      "mappedDirection": "left",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing left",
+      "value": "Smaller",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "S",
+      "mappedDirection": "left",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing left",
+      "value": "Small",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "S",
+      "mappedDirection": "left",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing left",
+      "value": "Medium",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "M",
+      "mappedDirection": "left",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing left",
+      "value": "Large",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "L",
+      "mappedDirection": "left",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing left",
+      "value": "Larger",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "L",
+      "mappedDirection": "left",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing left",
+      "value": "Largest",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "L",
+      "mappedDirection": "left",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing left",
+      "value": "Inner small",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "S",
+      "mappedDirection": "left",
+      "mappedType": "padding"
+    },
+    {
+      "property": "Spacing left",
+      "value": "Inner medium",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "M",
+      "mappedDirection": "left",
+      "mappedType": "padding"
+    },
+    {
+      "property": "Spacing left",
+      "value": "Inner large",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "L",
+      "mappedDirection": "left",
+      "mappedType": "padding"
+    },
+    {
+      "property": "Spacing left",
+      "value": "Outer small",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "S",
+      "mappedDirection": "left",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing left",
+      "value": "Outer medium",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "M",
+      "mappedDirection": "left",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing left",
+      "value": "Outer large",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "L",
+      "mappedDirection": "left",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing right",
+      "value": "Smallest",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "S",
+      "mappedDirection": "right",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing right",
+      "value": "Smaller",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "S",
+      "mappedDirection": "right",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing right",
+      "value": "Small",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "S",
+      "mappedDirection": "right",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing right",
+      "value": "Medium",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "M",
+      "mappedDirection": "right",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing right",
+      "value": "Large",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "L",
+      "mappedDirection": "right",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing right",
+      "value": "Larger",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "L",
+      "mappedDirection": "right",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing right",
+      "value": "Largest",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "L",
+      "mappedDirection": "right",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing right",
+      "value": "Inner small",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "S",
+      "mappedDirection": "right",
+      "mappedType": "padding"
+    },
+    {
+      "property": "Spacing right",
+      "value": "Inner medium",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "M",
+      "mappedDirection": "right",
+      "mappedType": "padding"
+    },
+    {
+      "property": "Spacing right",
+      "value": "Inner large",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "L",
+      "mappedDirection": "right",
+      "mappedType": "padding"
+    },
+    {
+      "property": "Spacing right",
+      "value": "Outer small",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "S",
+      "mappedDirection": "right",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing right",
+      "value": "Outer medium",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "M",
+      "mappedDirection": "right",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Spacing right",
+      "value": "Outer large",
+      "elementTypes": "*",
+      "action": "map",
+      "mappedProperty": "Spacing",
+      "mappedValue": "L",
+      "mappedDirection": "right",
+      "mappedType": "margin"
+    },
+    {
+      "property": "Button style",
+      "value": "Secondary",
+      "elementTypes": [
+        "ActionButton"
+      ],
+      "action": "mapToWidgetProperty",
+      "widgetProperty": "buttonStyle",
+      "widgetValue": "Default",
+      "_reason": "Native Secondary maps to Web Default button style"
+    },
+    {
+      "property": "Button style",
+      "value": "Success",
+      "elementTypes": [
+        "ActionButton"
+      ],
+      "action": "mapToWidgetProperty",
+      "widgetProperty": "buttonStyle",
+      "widgetValue": "Success",
+      "_reason": "Maps to widget buttonStyle property"
+    },
+    {
+      "property": "Button style",
+      "value": "Warning",
+      "elementTypes": [
+        "ActionButton"
+      ],
+      "action": "mapToWidgetProperty",
+      "widgetProperty": "buttonStyle",
+      "widgetValue": "Warning",
+      "_reason": "Maps to widget buttonStyle property"
+    },
+    {
+      "property": "Button style",
+      "value": "Danger",
+      "elementTypes": [
+        "ActionButton"
+      ],
+      "action": "mapToWidgetProperty",
+      "widgetProperty": "buttonStyle",
+      "widgetValue": "Danger",
+      "_reason": "Maps to widget buttonStyle property"
+    },
+    {
+      "property": "Button style",
+      "value": "Inversed",
+      "elementTypes": [
+        "ActionButton"
+      ],
+      "action": "mapToWidgetProperty",
+      "widgetProperty": "buttonStyle",
+      "widgetValue": "Inverse",
+      "_reason": "Native Inversed maps to Web Inverse button style"
+    },
+    {
+      "property": "Badge style",
+      "value": "Primary",
+      "elementTypes": [
+        "com.mendix.widget.native.badge.Badge"
+      ],
+      "action": "map",
+      "mappedProperty": "Style",
+      "mappedValue": "Brand Primary"
+    },
+    {
+      "property": "Badge style",
+      "value": "Success",
+      "elementTypes": [
+        "com.mendix.widget.native.badge.Badge"
+      ],
+      "action": "map",
+      "mappedProperty": "Style",
+      "mappedValue": "Brand Success"
+    },
+    {
+      "property": "Badge style",
+      "value": "Warning",
+      "elementTypes": [
+        "com.mendix.widget.native.badge.Badge"
+      ],
+      "action": "map",
+      "mappedProperty": "Style",
+      "mappedValue": "Brand Warning"
+    },
+    {
+      "property": "Badge style",
+      "value": "Danger",
+      "elementTypes": [
+        "com.mendix.widget.native.badge.Badge"
+      ],
+      "action": "map",
+      "mappedProperty": "Style",
+      "mappedValue": "Brand Danger"
+    },
+    {
+      "property": "Size",
+      "value": "Smallest",
+      "elementTypes": [
+        "DynamicText"
+      ],
+      "action": "map",
+      "mappedProperty": "Size",
+      "mappedValue": "Small",
+      "_reason": "Web only has Small/Large, mapping Smallest to Small"
+    },
+    {
+      "property": "Size",
+      "value": "Largest",
+      "elementTypes": [
+        "DynamicText"
+      ],
+      "action": "map",
+      "mappedProperty": "Size",
+      "mappedValue": "Large",
+      "_reason": "Web only has Small/Large, mapping Largest to Large"
+    },
+    {
+      "property": "Weight",
+      "value": "Default",
+      "elementTypes": [
+        "DynamicText"
+      ],
+      "action": "map",
+      "mappedProperty": "Weight",
+      "mappedValue": "Normal",
+      "_reason": "Native 'Default' maps to Web 'Normal'"
+    },
+    {
+      "property": "Color",
+      "value": "Disabled",
+      "elementTypes": [
+        "DynamicText"
+      ],
+      "action": "map",
+      "mappedProperty": "Color",
+      "mappedValue": "Detail color",
+      "_reason": "Native 'Disabled' maps to Web 'Detail color'"
+    },
+    {
+      "property": "Color",
+      "value": "Brand primary",
+      "elementTypes": [
+        "DynamicText"
+      ],
+      "action": "map",
+      "mappedProperty": "Color",
+      "mappedValue": "Brand Primary",
+      "_reason": "Case difference: 'primary' to 'Primary'"
+    },
+    {
+      "property": "Color",
+      "value": "Brand success",
+      "elementTypes": [
+        "DynamicText"
+      ],
+      "action": "map",
+      "mappedProperty": "Color",
+      "mappedValue": "Brand Success",
+      "_reason": "Case difference: 'success' to 'Success'"
+    },
+    {
+      "property": "Color",
+      "value": "Brand warning",
+      "elementTypes": [
+        "DynamicText"
+      ],
+      "action": "map",
+      "mappedProperty": "Color",
+      "mappedValue": "Brand Warning",
+      "_reason": "Case difference: 'warning' to 'Warning'"
+    },
+    {
+      "property": "Color",
+      "value": "Brand danger",
+      "elementTypes": [
+        "DynamicText"
+      ],
+      "action": "map",
+      "mappedProperty": "Color",
+      "mappedValue": "Brand Danger",
+      "_reason": "Case difference: 'danger' to 'Danger'"
+    },
+    {
+      "property": "Shape",
+      "value": "Circle",
+      "elementTypes": [
+        "StaticImageViewer",
+        "ImageViewer"
+      ],
+      "action": "map",
+      "mappedProperty": "Style",
+      "mappedValue": "Circle",
+      "_reason": "Property name changes from 'Shape' to 'Style'"
+    },
+    {
+      "property": "Align",
+      "value": "Start",
+      "elementTypes": [
+        "DivContainer",
+        "ActionButton"
+      ],
+      "action": "map",
+      "mappedProperty": "Align self",
+      "mappedValue": "Left"
+    },
+    {
+      "property": "Align",
+      "value": "End",
+      "elementTypes": [
+        "DivContainer",
+        "ActionButton"
+      ],
+      "action": "map",
+      "mappedProperty": "Align self",
+      "mappedValue": "Right"
+    },
+    {
+      "property": "Justify content",
+      "value": "Start",
+      "elementTypes": [
+        "DivContainer"
+      ],
+      "action": "map",
+      "mappedProperty": "Align content",
+      "mappedValue": "Left align as a row",
+      "_reason": "Maps to Align content assuming horizontal (row) direction"
+    },
+    {
+      "property": "Justify content",
+      "value": "Center",
+      "elementTypes": [
+        "DivContainer"
+      ],
+      "action": "map",
+      "mappedProperty": "Align content",
+      "mappedValue": "Center align as a row",
+      "_reason": "Maps to Align content assuming horizontal (row) direction"
+    },
+    {
+      "property": "Justify content",
+      "value": "End",
+      "elementTypes": [
+        "DivContainer"
+      ],
+      "action": "map",
+      "mappedProperty": "Align content",
+      "mappedValue": "Right align as a row",
+      "_reason": "Maps to Align content assuming horizontal (row) direction"
+    },
+    {
+      "property": "Render children horizontal",
+      "value": "true",
+      "elementTypes": [
+        "DivContainer"
+      ],
+      "action": "map",
+      "mappedProperty": "Align content",
+      "mappedValue": "Left align as a row"
+    },
+    {
+      "property": "Background color",
+      "value": "Brand Info",
+      "elementTypes": [
+        "DivContainer",
+        "ListView"
+      ],
+      "action": "remove",
+      "_reason": "Brand Info does not exist in Web DivContainer Background color options"
+    },
+    {
+      "property": "Background color",
+      "value": "Background Secondary",
+      "elementTypes": [
+        "DivContainer",
+        "ListView"
+      ],
+      "action": "remove",
+      "_reason": "Native Background Secondary does not match Web options"
+    },
+    {
+      "property": "Size",
+      "value": "Maximum space",
+      "elementTypes": [
+        "DivContainer"
+      ],
+      "action": "remove",
+      "_reason": "Flexbox sizing property - no direct Web equivalent"
+    },
+    {
+      "property": "Size",
+      "value": "Minimum space",
+      "elementTypes": [
+        "DivContainer"
+      ],
+      "action": "remove",
+      "_reason": "Flexbox sizing property - no direct Web equivalent"
+    },
+    {
+      "property": "Size",
+      "value": "Icon",
+      "elementTypes": [
+        "StaticImageViewer",
+        "ImageViewer"
+      ],
+      "action": "remove",
+      "_reason": "Web Image uses different size system"
+    },
+    {
+      "property": "Size",
+      "value": "Small",
+      "elementTypes": [
+        "StaticImageViewer",
+        "ImageViewer"
+      ],
+      "action": "remove",
+      "_reason": "Web Image uses different size system"
+    },
+    {
+      "property": "Size",
+      "value": "Medium",
+      "elementTypes": [
+        "StaticImageViewer",
+        "ImageViewer"
+      ],
+      "action": "remove",
+      "_reason": "Web Image uses different size system"
+    },
+    {
+      "property": "Size",
+      "value": "Large",
+      "elementTypes": [
+        "StaticImageViewer",
+        "ImageViewer"
+      ],
+      "action": "remove",
+      "_reason": "Web Image uses different size system"
+    },
+    {
+      "property": "Size",
+      "value": "Larger",
+      "elementTypes": [
+        "StaticImageViewer",
+        "ImageViewer"
+      ],
+      "action": "remove",
+      "_reason": "Web Image uses different size system"
+    },
+    {
+      "property": "Size",
+      "value": "FullSize",
+      "elementTypes": [
+        "StaticImageViewer",
+        "ImageViewer"
+      ],
+      "action": "remove",
+      "_reason": "Web Image uses different size system"
+    },
+    {
+      "property": "Color",
+      "value": "Paragraph",
+      "elementTypes": [
+        "DynamicText"
+      ],
+      "action": "remove",
+      "_reason": "Web uses different color names, no direct equivalent"
+    },
+    {
+      "property": "Color",
+      "value": "Black",
+      "elementTypes": [
+        "DynamicText"
+      ],
+      "action": "remove",
+      "_reason": "No Black color option in Web"
+    },
+    {
+      "property": "Decoration",
+      "value": "Underline",
+      "elementTypes": [
+        "DynamicText"
+      ],
+      "action": "remove",
+      "_reason": "Web DynamicText does not have Decoration property"
+    },
+    {
+      "property": "Decoration",
+      "value": "Line Through",
+      "elementTypes": [
+        "DynamicText"
+      ],
+      "action": "remove",
+      "_reason": "Web DynamicText does not have Decoration property"
+    },
+    {
+      "property": "Shape",
+      "value": "Square",
+      "elementTypes": [
+        "StaticImageViewer",
+        "ImageViewer"
+      ],
+      "action": "remove",
+      "_reason": "Web Image uses Style property, Square is the default"
+    },
+    {
+      "property": "List item divider",
+      "value": "Vertical",
+      "elementTypes": [
+        "ListView"
+      ],
+      "action": "remove",
+      "_reason": "Web ListView uses Style property (Lined, Striped, Bordered)"
+    },
+    {
+      "property": "List item divider",
+      "value": "Horizontal",
+      "elementTypes": [
+        "ListView"
+      ],
+      "action": "remove",
+      "_reason": "Web ListView uses Style property (Lined, Striped, Bordered)"
+    },
+    {
+      "property": "Align",
+      "value": "Center",
+      "elementTypes": [
+        "DivContainer",
+        "ActionButton"
+      ],
+      "action": "remove",
+      "_reason": "Native flexbox property - no Web design property equivalent"
+    },
+    {
+      "property": "Align",
+      "value": "Stretch",
+      "elementTypes": [
+        "DivContainer",
+        "ActionButton"
+      ],
+      "action": "remove",
+      "_reason": "Native flexbox property - no Web design property equivalent"
+    },
+    {
+      "property": "Align",
+      "value": "Baseline",
+      "elementTypes": [
+        "DivContainer",
+        "ActionButton"
+      ],
+      "action": "remove",
+      "_reason": "Native flexbox property - no Web design property equivalent"
+    },
+    {
+      "property": "Align children",
+      "value": "Start",
+      "elementTypes": [
+        "DivContainer"
+      ],
+      "action": "remove",
+      "_reason": "Native flexbox property - no Web design property equivalent"
+    },
+    {
+      "property": "Align children",
+      "value": "Center",
+      "elementTypes": [
+        "DivContainer"
+      ],
+      "action": "remove",
+      "_reason": "Native flexbox property - no Web design property equivalent"
+    },
+    {
+      "property": "Align children",
+      "value": "End",
+      "elementTypes": [
+        "DivContainer"
+      ],
+      "action": "remove",
+      "_reason": "Native flexbox property - no Web design property equivalent"
+    },
+    {
+      "property": "Align children",
+      "value": "Stretch",
+      "elementTypes": [
+        "DivContainer"
+      ],
+      "action": "remove",
+      "_reason": "Native flexbox property - no Web design property equivalent"
+    },
+    {
+      "property": "Align children",
+      "value": "Baseline",
+      "elementTypes": [
+        "DivContainer"
+      ],
+      "action": "remove",
+      "_reason": "Native flexbox property - no Web design property equivalent"
+    },
+    {
+      "property": "Justify content",
+      "value": "Space between",
+      "elementTypes": [
+        "DivContainer"
+      ],
+      "action": "remove",
+      "_reason": "Native flexbox property - no Web design property equivalent"
+    },
+    {
+      "property": "Justify content",
+      "value": "Space around",
+      "elementTypes": [
+        "DivContainer"
+      ],
+      "action": "remove",
+      "_reason": "Native flexbox property - no Web design property equivalent"
+    },
+    {
+      "property": "Justify content",
+      "value": "Space evenly",
+      "elementTypes": [
+        "DivContainer"
+      ],
+      "action": "remove",
+      "_reason": "Native flexbox property - no Web design property equivalent"
+    },
+    {
+      "property": "Wrap children",
+      "value": "true",
+      "elementTypes": [
+        "DivContainer"
+      ],
+      "action": "remove",
+      "_reason": "Native flexbox toggle - no Web design property equivalent"
+    }
+  ]
+}
