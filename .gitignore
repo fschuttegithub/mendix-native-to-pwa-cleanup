@@ -25,4 +25,10 @@ exports/
 tmp/
 temp/
 
+
+# Dependencies
+node_modules/
+
+# Environment
 .env
+
