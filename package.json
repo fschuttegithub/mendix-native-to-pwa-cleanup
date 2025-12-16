@@ -13,6 +13,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "mendixmodelsdk": "^4.105.0",
     "mendixplatformsdk": "^5.2.0",
     "xlsx": "^0.18.5"

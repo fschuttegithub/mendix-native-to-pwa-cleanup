@@ -13,6 +13,7 @@
  * Author: Mendix Expert Implementation
  */
 
+import "dotenv/config";
 import { MendixPlatformClient, OnlineWorkingCopy, setPlatformConfig } from "mendixplatformsdk";
 import { domainmodels, pages, type IModel, projects, texts } from "mendixmodelsdk";
 import * as fs from "fs";
@@ -29,7 +30,7 @@ import * as readline from "readline";
 const APP_ID = process.env.MENDIX_APP_ID || "";
 
 // The branch to modify. Ideally, perform this on a dedicated 'migration' branch.
-const BRANCH_NAME = process.env.MENDIX_BRANCH_NAME || "Version_PWADesignPropertiesConversion";
+const BRANCH_NAME = process.env.MENDIX_BRANCH_NAME || "";
 
 // Personal Access Token (PAT).
 const MENDIX_TOKEN = process.env.MENDIX_TOKEN || "";

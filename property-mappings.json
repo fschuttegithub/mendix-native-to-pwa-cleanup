@@ -802,9 +802,7 @@
       "elementTypes": [
         "DivContainer"
       ],
-      "action": "map",
-      "mappedProperty": "Align content",
-      "mappedValue": "Left align as a row"
+      "action": "remove"
     },
     {
       "property": "Background color",
