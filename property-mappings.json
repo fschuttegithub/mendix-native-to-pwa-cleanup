@@ -748,9 +748,7 @@
         "DivContainer",
         "ActionButton"
       ],
-      "action": "map",
-      "mappedProperty": "Align self",
-      "mappedValue": "Left"
+      "action": "remove"
     },
     {
       "property": "Align",
@@ -759,9 +757,7 @@
         "DivContainer",
         "ActionButton"
       ],
-      "action": "map",
-      "mappedProperty": "Align self",
-      "mappedValue": "Right"
+      "action": "remove"
     },
     {
       "property": "Justify content",
@@ -769,10 +765,7 @@
       "elementTypes": [
         "DivContainer"
       ],
-      "action": "map",
-      "mappedProperty": "Align content",
-      "mappedValue": "Left align as a row",
-      "_reason": "Maps to Align content assuming horizontal (row) direction"
+      "action": "remove"
     },
     {
       "property": "Justify content",
@@ -780,10 +773,7 @@
       "elementTypes": [
         "DivContainer"
       ],
-      "action": "map",
-      "mappedProperty": "Align content",
-      "mappedValue": "Center align as a row",
-      "_reason": "Maps to Align content assuming horizontal (row) direction"
+      "action": "remove"
     },
     {
       "property": "Justify content",
@@ -791,10 +781,7 @@
       "elementTypes": [
         "DivContainer"
       ],
-      "action": "map",
-      "mappedProperty": "Align content",
-      "mappedValue": "Right align as a row",
-      "_reason": "Maps to Align content assuming horizontal (row) direction"
+      "action": "remove"
     },
     {
       "property": "Render children horizontal",
